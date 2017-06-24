@@ -8,8 +8,14 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Find out more about what I do with the links below
+
+### Links
+
+[GitHub](https://github.com/thomaslorentsen)
+
+[Docker Hub](https://hub.docker.com/r/imacatlol/)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[LinkedIn](https://www.linkedin.com/in/tom-lorentsen-70b51976/)
