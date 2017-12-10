@@ -52,6 +52,7 @@ The first parameter of ```HandleFunc``` is the path and the second is the functi
 The called function just needs two paramters:
 - ```ResponseWriter``` we can write the header and body of our response
 - ```Request``` we can read the header and body of the request
+
 Lets add some code to be implemented later.
 ```go
 func List(w http.ResponseWriter, req *http.Request) {
