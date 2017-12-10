@@ -109,7 +109,10 @@ curl localhost:8080/1
 We can also output a json list in a similar way:
 ```go
 func List(w http.ResponseWriter, req *http.Request) {
-	items := []Item{{"widget one"}, {"widget two"}}
+	items := []Item{
+		{"widget one"},
+		{"widget two"},
+	}
 	json, err := json.Marshal(items)
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
